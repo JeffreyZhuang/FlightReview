@@ -1,9 +1,9 @@
 import struct
 from cobs import cobs
 
-struct_format = 'II3f'
+struct_format = '2I15f'
 
-file = open('log118.bin', 'rb')
+file = open('log3.bin', 'rb')
 
 while True: 
     byte = file.read(1)
